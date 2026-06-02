@@ -1,13 +1,13 @@
 # CBSimCast for Cloud Forecasting
 
-This repository contains the implementation code for LCSF on the WeatherBench dataset.
+This repository contains the implementation code for Lightweight_CloudForecasting on the WeatherBench dataset.
 
 ## 1. Environment Installation
 
 This project uses the same environment settings as OpenSTL.
 
 ```shell
-git clone [https://github.com/xingboliu123/LCSF.git](https://github.com/xingboliu123/LCSF.git)
+git clone [https://github.com/xingboliu123/Lightweight_CloudForecasting.git](https://github.com/xingboliu123/Lightweight_CloudForecasting.git)
 conda env create -f environment.yml
 conda activate OpenSTL
 python setup.py develop
