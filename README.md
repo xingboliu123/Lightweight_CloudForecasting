@@ -1,4 +1,4 @@
-# CBSimCast for Cloud Forecasting
+# CBPNet for Cloud Forecasting
 
 This repository contains the implementation code for Lightweight_CloudForecasting on the WeatherBench dataset.
 
