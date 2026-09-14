@@ -149,7 +149,7 @@ dataset_parameters = {
         'aft_seq_length': 12,
         'total_length': 24,
         'data_name': 'tcc',
-        'train_time': ['2010', '2015'], 'val_time': ['2016', '2016'], 'test_time': ['2017', '2018'],
+        'train_time': ['2010', '2015'], 'val_time': ['2017', '2018'], 'test_time': ['2016', '2016'],
         'metrics': ['mse', 'rmse', 'mae'],
     },
     'weather_t2m_1_40625': {  # relative_humidity
@@ -185,7 +185,7 @@ dataset_parameters = {
         'aft_seq_length': 12,
         'total_length': 24,
         'data_name': 'tcc',
-        'train_time': ['2010', '2015'], 'val_time': ['2016', '2016'], 'test_time': ['2017', '2018'],
+        'train_time': ['2010', '2015'], 'val_time': ['2017', '2017'], 'test_time': ['2018', '2018'],
         'metrics': ['mse', 'rmse', 'mae'],
     },
     'sevir_vis':{
@@ -229,6 +229,15 @@ dataset_parameters = {
         'train_time': ['2010', '2015'], 
         'val_time': ['2016', '2016'], 
         'test_time': ['2017', '2017'],
+        'metrics': ['mse', 'rmse', 'mae'],
+    },
+    'weather_tcc_2_8125': {  
+        'in_shape': [12, 1, 64, 128],
+        'pre_seq_length': 12,
+        'aft_seq_length': 12,
+        'total_length': 24,
+        'data_name': 'tcc',
+        'train_time': ['2010', '2015'], 'val_time': ['2017', '2017'], 'test_time': ['2018', '2018'],
         'metrics': ['mse', 'rmse', 'mae'],
     },
 } 
