@@ -28,8 +28,8 @@ To train the model on WeatherBench:
 
 ```shell
 python tools/train.py     --dataname weather_tcc_5_625       --data_root your     --config_file configs/weather/tcc_5_625/SimVP_IncepU.py     --ex_name weather_tcc_5_625/SimVP_IncepU
-python tools/train.py     --dataname weather_tcc_2_8125       --data_root your     --config_file configs/weather/tcc_5_625/SimVP_IncepU.py     --ex_name weather_tcc_2_8125/SimVP_IncepU
-python tools/train.py     --dataname weather_tcc_1_40625       --data_root your     --config_file configs/weather/tcc_5_625/SimVP_IncepU.py     --ex_name weather_tcc_1_40625/SimVP_IncepU
+python tools/train.py     --dataname weather_tcc_2_8125       --data_root your     --config_file configs/weather/tcc_2_8125/SimVP_IncepU.py     --ex_name weather_tcc_2_8125/SimVP_IncepU
+python tools/train.py     --dataname weather_tcc_1_40625       --data_root your     --config_file configs/weather/tcc_1_40625/SimVP_IncepU.py     --ex_name weather_tcc_1_40625/SimVP_IncepU
 ```
 
 ### Testing
@@ -38,6 +38,6 @@ To test the pre-trained model:
 
 ```shell
 python tools/test.py  --dataname weather_tcc_5_625   --config_file configs/weather/tcc_5_625/SimVP_IncepU.py   --ckpt_path  your ckpt   --data_root   your data_root
-python tools/test.py  --dataname weather_tcc_2_8125   --config_file configs/weather/tcc_5_625/SimVP_IncepU.py   --ckpt_path  your ckpt   --data_root   your data_root
-python tools/test.py  --dataname weather_tcc_1_40625   --config_file configs/weather/tcc_5_625/SimVP_IncepU.py   --ckpt_path  your ckpt   --data_root   your data_root
+python tools/test.py  --dataname weather_tcc_2_8125   --config_file configs/weather/tcc_2_8125/SimVP_IncepU.py   --ckpt_path  your ckpt   --data_root   your data_root
+python tools/test.py  --dataname weather_tcc_1_40625   --config_file configs/weather/tcc_1_40625/SimVP_IncepU.py   --ckpt_path  your ckpt   --data_root   your data_root
 ```
