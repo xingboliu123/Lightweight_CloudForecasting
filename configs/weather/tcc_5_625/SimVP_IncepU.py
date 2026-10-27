@@ -13,5 +13,3 @@ batch_size = 16
 drop_path = 0.1
 sched = 'cosine'
 warmup_epoch = 0
-weather_dataroot = "/scratch/xingbo"
-data_root = '/scratch/xingbo'
